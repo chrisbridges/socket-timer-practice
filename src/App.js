@@ -10,7 +10,7 @@ class App extends Component {
     subscribeToTimer(1000, (err, timestamp) => this.setState({
       timestamp
     }));
-  }
+  } 
 
   state = {
     timestamp: 'no timestamp yet'
